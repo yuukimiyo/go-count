@@ -31,6 +31,4 @@ ensure:
 .PHONY: dev
 dev:
 	@go build -o $(BINDIR)/$(NAME)
-	$(BINDIR)/$(NAME) -f /mnt/v01/resource/yuho/risktext/risk_20140801_20160731_categorysentenses/social_economic.csv $(args)
-#	@$(BINDIR)/$(NAME) -f /mnt/v01/resource/wikipedia/jawiki/20191001/extract/jawiki-20191001-categorylinks.sql $(ARG)
-#	@$(BINDIR)/$(NAME) -f /mnt/v01/resource/wikipedia/jawiki/20191001/extract/jawiki-20191001-pages-articles6.xml-p2534193p4013905
+	$(BINDIR)/$(NAME) $(args)
