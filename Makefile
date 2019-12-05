@@ -4,7 +4,7 @@
 NAME     := $(shell basename `pwd`)
 BINDIR   := bin
 REPO     := github.com/yuukimiyo/$(NAME)
-VERSION  := v0.0.1
+VERSION  := v0.1
 
 args	:=
 SRCS    := $(shell find . -type f -name '*.go')
